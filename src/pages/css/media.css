@@ -1,0 +1,214 @@
+.card{
+width: 49%; 
+margin:5px;
+}
+
+.about-me {
+    position: relative;
+    right:60px;
+    border-radius: 80%;
+    width: 380px;
+    border: 5px solid rgb(255, 255, 255);
+  }
+.link{
+    text-decoration: none;
+    color: rgb(46, 44, 78);
+    font-weight: 500;
+}
+.skill-container{
+    background-color: white;
+    border-radius:5px ;
+    width: 25%; 
+    margin:10px;
+    border: 1px solid rgb(226, 225, 225);
+}
+.skill-container:hover{
+    background-color: rgb(185, 185, 185);
+}
+
+@media screen and (max-width: 1200px) {
+    .card{
+        width: 100%; 
+        margin:5px;
+        }
+      
+  }
+  @media screen and (max-width: 1000px) {
+    .skill-container{
+        background-color: white;
+        border-radius:5px ;
+        width: 40%; 
+        margin:5px ;
+        border: 1px solid rgb(158, 157, 157);
+    }
+    .about-me{
+     position: relative;
+     right: 130px;
+    }
+    
+  }
+
+  @media screen and (max-width: 775px) {
+    .skill-container{
+        background-color: white;
+        border-radius:5px ;
+        width: 40%; 
+        margin:5px;
+        border: 1px solid rgb(158, 157, 157);
+    }
+    .about-me{
+     position: relative;
+     right: 130px;
+    }
+    input[type = text],input[type=email],textarea[type=text]{
+        width: 450px;
+       }
+  }
+
+  @media screen and (max-width: 529px) {
+    .card{
+        width: 100%;
+        margin:10px auto auto 30px ;
+    }
+    .skill-container{
+        background-color: white;
+        border-radius:5px ;
+        width: 60%; 
+        margin:5px auto;
+        border: 1px solid rgb(158, 157, 157);
+    }
+    .about-me{
+        position: relative;
+        right: 0px;
+        width: 190px;
+       }
+       input[type = text],input[type=email],textarea[type=text]{
+        width: 450px;
+       }
+      
+  }
+
+  @media screen and (max-width: 495px) { 
+    .card{ 
+        width: 90%;
+        margin: 10px auto;
+    } 
+    input[type = text],input[type=email],textarea[type=text]{
+     width: 410px;
+    }
+    .fw-normal{
+     font-size: 17px;
+    }
+    .paragraph{
+     font-size: 12px ;
+    }
+       
+   }
+   @media screen and (max-width: 475px) { 
+    .skill-container{
+        background-color: white;
+        border-radius:5px ;
+        width: 80%; 
+        margin:5px auto;
+        border: 1px solid rgb(158, 157, 157);
+    }
+    .card{ 
+        width: 90%;
+        margin: 10px auto;
+    } 
+    input[type = text],input[type=email],textarea[type=text]{
+     width: 390px;
+    }
+    .fw-normal{
+     font-size: 17px;
+    }
+    .paragraph{
+     font-size: 12px ;
+    }
+       
+   }
+
+  @media screen and (max-width: 435px) {  
+   input[type = text],input[type=email],textarea[type=text]{
+    width: 350px;
+   }
+   .fw-normal{
+    font-size: 17px;
+   }
+   .paragraph{
+    font-size: 12px ;
+   }
+      
+  }
+  @media screen and (max-width: 390px) {
+    .skill-container{
+        background-color: white;
+        border-radius:5px ;
+        width: 90%; 
+        margin:auto;
+        border: 1px solid rgb(158, 157, 157);
+    }
+    .about-me{
+        position: relative;
+        right: 15px;
+        width: 160px;
+       }
+   input[type = text],input[type=email],textarea[type=text]{
+    width: 310px;
+   }
+   .fw-normal{
+    font-size: 17px;
+   }
+   .paragraph{
+    font-size: 12px ;
+   }
+      
+  }
+  @media screen and (max-width: 330px) {
+    .skill-container{
+        background-color: white;
+        border-radius:5px ;
+        width: 90%; 
+        margin:auto;
+        border: 1px solid rgb(158, 157, 157);
+    }
+    .about-me{
+        position: relative;
+        right: 15px;
+        width: 160px;
+       }
+   input[type = text],input[type=email],textarea[type=text]{
+    width: 240px;
+   }
+   .fw-normal{
+    font-size: 17px;
+   }
+   .paragraph{
+    font-size: 12px ;
+   }
+      
+  }
+  @media screen and (max-width: 245px) {
+    .skill-container{
+        background-color: white;
+        border-radius:5px ;
+        width: 90%; 
+        margin:auto;
+        border: 1px solid rgb(158, 157, 157);
+    }
+    .about-me{
+        position: relative;
+        right: 15px;
+        width: 160px;
+       }
+   input[type = text],input[type=email],textarea[type=text]{
+    width: 220px;
+   }
+   .fw-normal{
+    font-size: 17px;
+   }
+   .paragraph{
+    font-size: 12px ;
+   }
+      
+  }
